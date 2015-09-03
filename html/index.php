@@ -23,7 +23,7 @@
 						<p>One of the most exciting ways that electronics can be used is by acting as a bridge to connect the analog world to a digital one and vice versa. Creating and innovating new systems to interact with the world and augment human capabilities is where I find msyelf gravitating towards. This bridge is one of the gateways to enhacing our abilities to explore and understand our limitless surroundings.</p>
 						<ul class="actions">
 							<li><a href="#" class="button">Project Archive</a></li>
-							<li><a href="#" class="button">Thoughts</a></li>
+							<li><a href="thoughts.php" class="button">Thoughts</a></li>
 						</ul>
 					</section>
 
