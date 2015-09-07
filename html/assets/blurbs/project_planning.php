@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<!--Head-->
-	<?php include 'head.php' ?>
+	<?php include '../../head_blurbs.php' ?>
 	<body id="top">
 	<!--Header-->
 	<?php include 'header.php' ?>
