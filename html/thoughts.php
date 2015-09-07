@@ -23,7 +23,12 @@
 				echo "<ul>";
 				foreach ($contents as $k => $v)
 				{
-					echo "<li><a href=\"$directory/" . $v . "\">link text</a></li>";
+					if($v != "." || $v != "..")
+					{						
+						$result = $v !== "." ;
+						echo "$result";
+						echo "<li><a href=\"$directory/" . $v . "\">link text</a></li>";
+					}
 				}
 				echo "</ul>";
 			?>
