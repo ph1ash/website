@@ -22,7 +22,7 @@
 						</header>
 						<p>One of the most exciting ways that electronics can be used is by acting as a bridge to connect the analog world to a digital one and vice versa. Creating and innovating new systems to interact with the world and augment human capabilities is where I find msyelf gravitating towards. This bridge is one of the gateways to enhacing our abilities to explore and understand our limitless surroundings.</p>
 						<ul class="actions">
-							<li><a href="#" class="button">Project Archive</a></li>
+							<li><a href="projects.php" class="button">Projects</a></li>
 							<li><a href="thoughts.php" class="button">Thoughts</a></li>
 						</ul>
 					</section>
@@ -34,7 +34,7 @@
 							<article class="6u 12u$(xsmall) work-item"> <!-- Add in "work-item" into class to activate js selector for image gallery -->
 								<a href="images/scc_rev2.jpg" class="image fit thumb"><img src="images/scc_rev2.jpg" alt="" /></a>
 								<h3>Solar Charger</h3>
-								<p>Harnessing the sun's rays so I, and others, can Reddit on the go (and do other things...)</p>
+								<p>A good ol' photon trap</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
 								<a href="images/bbb_light.jpg" class="image fit thumb"><img src="images/bbb_light.jpg" alt="" /></a>

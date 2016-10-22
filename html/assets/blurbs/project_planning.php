@@ -1,12 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<!--Head-->
-	<?php chdir("../../");
-	      include 'head.php'; ?>
+	<?php include '../../head.php'; ?>
 	<body id="top">
 	<!--Header-->
-	<?php chdir("../../");
-              include 'header.php'; ?>
+	<?php include '../../header.php'; ?>
 		<div id="main">
 			<h1>The all too common problem of losing interest in a project</h1>
 			<p>It seems quite common that a project tends to lose interest because the individual or team does not know where to go next. When the next step of the project requires a decision to be made that the team is unsure of or lacks knowledge in, a large barrier is then realized. The common result is to procrastinate or to put off this problem in hopes that it will possibly go away or time will provide an answer to the problem. Sometimes this does work out, but more often than not, this will be the stopping point for this project.</p>
@@ -27,9 +25,7 @@
 		</div>
 	</body>
 	<!--Footer-->
-	<?php chdir("../../");
-	      include 'footer.php'; ?>
+	<?php include '../../footer.php'; ?>
 	<!--Scripts-->
-	<?php chdir("../../");
-	      include 'scripts.php'; ?>
+	<?php include '../../scripts.php'; ?>
 </html>

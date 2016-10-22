@@ -7,9 +7,9 @@
         <?php include 'header.php' ?>
         <div id="main">
             <section id="one">
-            <h1>Random Thoughts</h1>
+            <h1>Projects</h1>
             <?php
-                $directory = "assets/blurbs";
+                $directory = "assets/projects";
                 $contents = scandir($directory);
                 if ($contents)
                 {
@@ -24,12 +24,13 @@
                 echo "<ul>";
                 foreach ($contents as $k => $v)
                 {
-                    if($v !== "." && $v !== "..")
+		    $fileInfo = pathinfo($v);
+		    if($fileInfo['extension'] == 'php')
                     {
-                    	$pageName = str_replace('_',' ',$v);
-                        $pageName = str_replace(".php","",$pageName);
+			$fileArray = $v;
+			$pageName = $fileInfo['filename'];
                         $pageName = ucwords($pageName);
-			$mtime = date("M|d|y", filemtime($directory."/".$v));
+			$mtime = date("[M|d|y]", filemtime($directory."/".$v));
                         echo "<li><a href=\"$directory/" . $v . "\"><h3>$pageName</a> - $mtime</h3></li>";
 			$lump = file_get_contents($directory."/".$v);
 			$start_tag = "<p>";
@@ -38,7 +39,9 @@
 			if ($startpos !== false) {
     				$endpos = strpos($lump, $end_tag, $startpos);
     				if ($endpos !== false) {
+					echo '<p>';
 				        echo substr($lump, $startpos, $endpos - $startpos)." <a href=\"$directory/$v\">[...]</a>";
+					echo '</p>';
     				}
 			}
                     }
